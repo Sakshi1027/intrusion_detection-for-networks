@@ -99,23 +99,10 @@ All models (malware, IoT, phishing, DDoS, global) use datasets derived from the 
    - If models exceed 100MB, use Git LFS or Google Drive (update paths in notebooks).
    - Example: `/content/drive/MyDrive/Malware/causal_graphsage_model.pth`.
 
-## Usage
-
-Run notebooks in Google Colab for training and evaluation:
-
-- **Malware Detection**:
-
-  ![Open in Colab](https://colab.research.google.com/drive/148WIPYjWcFKRYuoN4lRUPZU-4RHo6h_m)
-- **IoT Attack Detection**:
-
-  ![Open in Colab](https://colab.research.google.com/drive/1T-6EYaz9g2YHIo7cZZkYPPIcXR5nkBS-)
-- **Global Model**:
-
-  ![Open in Colab](https://colab.research.google.com/drive/1CjshuZKrci23AwhK64z-viUHs_YfgedP)
 
 ### Steps to Run a Notebook
 
-1. Open the notebook in Colab using the badge above.
+1. Open the notebook in Colab.
 2. Mount Google Drive:
 
    ```python
@@ -165,4 +152,4 @@ This repository does not include a license. For permission to use, modify, or di
 - Built using PyTorch and PyTorch Geometric.
 - Inspired by research on GNNs for network security and causal inference.
 
-Replace `Sakshi1027` with your GitHub username in Colab badge URLs and clone command. Replace `sakshias.cs23@rvce.edu.in` with your contact email.
+
